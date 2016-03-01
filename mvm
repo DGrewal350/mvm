@@ -1,0 +1,8 @@
+#!/bin/bash
+# Renames all movie files of type mp4 or mpv in Downloads folder
+# Moves file to Movie folder creating subfolder of Title and Season
+# Usage: ./mvm
+
+cd $HOME/Downloads
+
+zsh /usr/local/bin/mvmh.zsh
